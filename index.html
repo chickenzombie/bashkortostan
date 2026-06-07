@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Лендинг о достопримечательностях Республики Башкортостан: шиханы, пещеры, водохранилища, Уфа и горные маршруты."
+    />
+    <title>Достопримечательности Башкортостана</title>
+    <link rel="preconnect" href="https://commons.wikimedia.org" />
+    <link rel="preconnect" href="https://upload.wikimedia.org" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Основная навигация">
+      <a class="brand" href="#top" aria-label="Башкортостан">
+        <img
+          class="brand-flag"
+          src="https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bashkortostan.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <span>Башкирия</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#places">Места</a>
+        <a href="#route">Маршрут</a>
+        <a href="#season">Сезоны</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <p class="eyebrow">Южный Урал</p>
+          <h1 id="hero-title">Край шиханов</h1>
+          <p class="hero-lead">
+            Пещеры с древними рисунками, широкие реки, горные маршруты и городские символы в одном путешествии.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#places">Смотреть места</a>
+            <a class="secondary-action" href="#route">Собрать маршрут</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-facts" aria-label="Коротко о регионе">
+        <div class="fact">
+          <span class="fact-value">8</span>
+          <span class="fact-label">локаций в подборке</span>
+        </div>
+        <div class="fact">
+          <span class="fact-value">5 дней</span>
+          <span class="fact-label">для первого путешествия</span>
+        </div>
+        <div class="fact">
+          <span class="fact-value">Уфа</span>
+          <span class="fact-label">удобная точка старта</span>
+        </div>
+      </section>
+
+      <section class="intro section-shell" aria-labelledby="intro-title">
+        <div class="section-kicker">Пейзаж и культура</div>
+        <div class="intro-layout">
+          <div>
+            <h2 id="intro-title">От городской панорамы до заповедной тишины</h2>
+          </div>
+          <p>
+            Башкортостан легко сочетает контрасты: в один день можно увидеть памятник Салавату Юлаеву над
+            Белой, а на следующий - идти к скалам, пещерам и водохранилищам среди лесов. Эта страница
+            собирает самые узнаваемые точки для первого знакомства с республикой.
+          </p>
+        </div>
+      </section>
+
+      <section class="places section-shell" id="places" aria-labelledby="places-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Достопримечательности</div>
+            <h2 id="places-title">Известные места Башкортостана</h2>
+          </div>
+          <div class="filter-tabs" role="group" aria-label="Фильтр достопримечательностей">
+            <button class="filter-tab is-active" type="button" data-filter="all" aria-pressed="true">Все</button>
+            <button class="filter-tab" type="button" data-filter="nature" aria-pressed="false">Природа</button>
+            <button class="filter-tab" type="button" data-filter="ufa" aria-pressed="false">Уфа</button>
+            <button class="filter-tab" type="button" data-filter="mountains" aria-pressed="false">Горы</button>
+          </div>
+        </div>
+
+        <div class="place-grid">
+          <article class="place-card featured" data-tags="nature mountains">
+            <figure class="place-image">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%BE%D1%80%D0%B0_%D0%A2%D0%BE%D1%80%D0%B0%D1%82%D0%B0%D1%83.jpg?width=1400"
+                alt="Гора Торатау среди полей Башкортостана"
+              />
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D1%80%D0%B0_%D0%A2%D0%BE%D1%80%D0%B0%D1%82%D0%B0%D1%83.jpg">Wikimedia Commons</a>
+              </figcaption>
+            </figure>
+            <div class="place-copy">
+              <p class="place-type">Шихан</p>
+              <h3>Торатау</h3>
+              <p>
+                Один из самых узнаваемых шиханов республики. Одиночная известняковая гора поднимается над
+                равниной и открывает обзор на Ишимбайский район, степи и извилистые дороги к подножию.
+              </p>
+              <div class="chips">
+                <span>Ишимбайский район</span>
+                <span>Панорамы</span>
+                <span>Южный Урал</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="place-card" data-tags="nature">
+            <figure class="place-image">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/The_Kapova_Cave.jpg?width=1200"
+                alt="Вход в Капову пещеру Шульган-Таш"
+              />
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:The_Kapova_Cave.jpg">Wikimedia Commons</a>
+              </figcaption>
+            </figure>
+            <div class="place-copy">
+              <p class="place-type">Пещера</p>
+              <h3>Шульган-Таш</h3>
+              <p>
+                Капова пещера известна палеолитической живописью, карстовыми залами и легендами, связанными с
+                башкирским эпосом. Это место, где природа и археология звучат в одном пространстве.
+              </p>
+              <div class="chips">
+                <span>Бурзянский район</span>
+                <span>Заповедник</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="place-card" data-tags="nature">
+            <figure class="place-image">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Falcon_Cliff.jpg?width=1200"
+                alt="Скалы и вода Нугушского водохранилища"
+              />
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Falcon_Cliff.jpg">Wikimedia Commons</a>
+              </figcaption>
+            </figure>
+            <div class="place-copy">
+              <p class="place-type">Вода и скалы</p>
+              <h3>Нугушское водохранилище</h3>
+              <p>
+                Голубая вода, лесистые берега и скальные выступы делают Нугуш одной из самых фотогеничных
+                точек юга республики. Сюда едут за прогулками по воде и спокойными видами.
+              </p>
+              <div class="chips">
+                <span>Мелеузовский район</span>
+                <span>Лодочные маршруты</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="place-card" data-tags="ufa culture">
+            <figure class="place-image">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Monument_to_Salawat_Yulayev,_Ufa-5.jpg?width=1200"
+                alt="Памятник Салавату Юлаеву в Уфе"
+              />
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Monument_to_Salawat_Yulayev,_Ufa-5.jpg">Wikimedia Commons</a>
+              </figcaption>
+            </figure>
+            <div class="place-copy">
+              <p class="place-type">Символ Уфы</p>
+              <h3>Памятник Салавату Юлаеву</h3>
+              <p>
+                Конная скульптура на высоком берегу Белой стала визуальным знаком Уфы. Отсюда хорошо начинать
+                прогулку по городу: рядом видовые площадки, набережная и исторический центр.
+              </p>
+              <div class="chips">
+                <span>Уфа</span>
+                <span>Панорама Белой</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="place-card" data-tags="ufa culture">
+            <figure class="place-image">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Lala_Tulpan.jpg?width=1200"
+                alt="Мечеть Ляля-Тюльпан в Уфе"
+              />
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Lala_Tulpan.jpg">Wikimedia Commons</a>
+              </figcaption>
+            </figure>
+            <div class="place-copy">
+              <p class="place-type">Архитектура</p>
+              <h3>Ляля-Тюльпан</h3>
+              <p>
+                Соборная мечеть с минаретами, похожими на бутоны тюльпана, показывает современную
+                архитектурную сторону Уфы и остается важной духовной точкой города.
+              </p>
+              <div class="chips">
+                <span>Уфа</span>
+                <span>Минареты</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="place-card" data-tags="nature mountains">
+            <figure class="place-image">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%B8%D0%B4_%D1%81_%D0%B3%D0%BE%D1%80%D1%8B_%D0%AF%D0%BD%D0%B3%D0%B0%D0%BD%D1%82%D0%B0%D1%83_-_panoramio_-_nekor.jpg?width=1200"
+                alt="Вид с горы Янган-Тау"
+              />
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%B4_%D1%81_%D0%B3%D0%BE%D1%80%D1%8B_%D0%AF%D0%BD%D0%B3%D0%B0%D0%BD%D1%82%D0%B0%D1%83_-_panoramio_-_nekor.jpg">Wikimedia Commons</a>
+              </figcaption>
+            </figure>
+            <div class="place-copy">
+              <p class="place-type">Геопарк</p>
+              <h3>Янган-Тау</h3>
+              <p>
+                Горная территория на северо-востоке Башкортостана известна природными тепловыми явлениями,
+                санаторной историей и маршрутами по геопарку с видами на лесистые долины.
+              </p>
+              <div class="chips">
+                <span>Салаватский район</span>
+                <span>Геология</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="place-card" data-tags="nature mountains">
+            <figure class="place-image">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D1%83%D1%80%D0%B0%D0%B4%D1%8B%D0%BC%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5_%D1%83%D1%89%D0%B5%D0%BB%D1%8C%D0%B5.jpg?width=1200"
+                alt="Мурадымовское ущелье в Башкортостане"
+              />
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:%D0%9C%D1%83%D1%80%D0%B0%D0%B4%D1%8B%D0%BC%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5_%D1%83%D1%89%D0%B5%D0%BB%D1%8C%D0%B5.jpg">Wikimedia Commons</a>
+              </figcaption>
+            </figure>
+            <div class="place-copy">
+              <p class="place-type">Природный парк</p>
+              <h3>Мурадымовское ущелье</h3>
+              <p>
+                Долина с известняковыми стенами, лесом, рекой Большой Ик и пещерами. Место подходит для
+                неспешного трекинга и знакомства с южнобашкирскими ландшафтами.
+              </p>
+              <div class="chips">
+                <span>Кугарчинский район</span>
+                <span>Пещеры</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="place-card" data-tags="nature mountains">
+            <figure class="place-image">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/%D0%98%D0%BD%D0%B7%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B5_%D0%B7%D1%83%D0%B1%D1%87%D0%B0%D1%82%D0%BA%D0%B81.jpg?width=1200"
+                alt="Скалы Инзерские зубчатки"
+              />
+              <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:%D0%98%D0%BD%D0%B7%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B5_%D0%B7%D1%83%D0%B1%D1%87%D0%B0%D1%82%D0%BA%D0%B81.jpg">Wikimedia Commons</a>
+              </figcaption>
+            </figure>
+            <div class="place-copy">
+              <p class="place-type">Скальный маршрут</p>
+              <h3>Инзерские зубчатки</h3>
+              <p>
+                Каменные гребни среди тайги Белорецкого района. Сюда едут за ощущением горной тропы, резкими
+                силуэтами скал и видами, которые особенно хороши на рассвете или закате.
+              </p>
+              <div class="chips">
+                <span>Белорецкий район</span>
+                <span>Трекинг</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="route section-shell" id="route" aria-labelledby="route-title">
+        <div class="route-panel">
+          <div class="route-copy">
+            <div class="section-kicker">Первое путешествие</div>
+            <h2 id="route-title">Маршрут на 5 дней</h2>
+            <p>
+              Удобно начать в Уфе, провести день в городе, затем уйти на юг к шиханам, воде и заповедным
+              местам. Такой порядок снижает переезды и оставляет время на прогулки.
+            </p>
+          </div>
+          <ol class="route-list">
+            <li><span>1</span>Уфа: Салават Юлаев, Ляля-Тюльпан, набережная Белой</li>
+            <li><span>2</span>Торатау и окрестности Ишимбая</li>
+            <li><span>3</span>Нугушское водохранилище</li>
+            <li><span>4</span>Шульган-Таш и Бурзянский район</li>
+            <li><span>5</span>Мурадымовское ущелье или Инзерские зубчатки</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="season section-shell" id="season" aria-labelledby="season-title">
+        <div class="section-heading compact">
+          <div>
+            <div class="section-kicker">Когда ехать</div>
+            <h2 id="season-title">Сезоны для разных маршрутов</h2>
+          </div>
+        </div>
+        <div class="season-grid">
+          <article>
+            <h3>Весна</h3>
+            <p>Половодье, свежая зелень и прохладные тропы. Хорошо для Уфы, Торатау и коротких выездов.</p>
+          </article>
+          <article>
+            <h3>Лето</h3>
+            <p>Лучшее время для Нугуша, Шульган-Таша, Мурадымовского ущелья и водных маршрутов.</p>
+          </article>
+          <article>
+            <h3>Осень</h3>
+            <p>Леса становятся яркими, а горные виды глубже. Отличный сезон для Инзерских зубчаток.</p>
+          </article>
+          <article>
+            <h3>Зима</h3>
+            <p>Городские прогулки, санаторные направления и спокойные панорамы без летней суеты.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>developed by chickenzombie | GPT-5.5 | Codex</p>
+    </footer>
+
+    <div class="lightbox" id="imageLightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" hidden>
+      <button class="lightbox-close" type="button" aria-label="Закрыть просмотр">×</button>
+      <figure class="lightbox-frame">
+        <img src="" alt="" />
+        <figcaption id="lightboxTitle"></figcaption>
+      </figure>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
